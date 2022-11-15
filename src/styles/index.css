@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .section {
+    @apply text-center bg-[rgb(245,245,245)] px-[20px] py-[40px] lg:p-[60px] mb-[60px] mx-[20px];
+  }
+}
+
 html {
   font-size: 100%;
 }
